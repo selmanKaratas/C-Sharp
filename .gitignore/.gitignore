@@ -1,0 +1,14 @@
+static void Main(string[] args)
+        {
+            double r, h, alan, hacim;
+            Console.Write("Yarıçapı Girin : ");
+            r = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Yüksekliği Girin : ");
+            h = Convert.ToDouble(Console.ReadLine());
+            alan=2*3.14*(r+h);//www.ahmetcansever.com
+            hacim = 3.14 * r * r * h;
+            Console.WriteLine();
+            Console.WriteLine("Alan = " + alan);
+            Console.WriteLine("Hacim = " + hacim);
+            Console.ReadKey();
+        }
